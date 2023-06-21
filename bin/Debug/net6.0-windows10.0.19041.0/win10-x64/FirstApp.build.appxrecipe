@@ -10,34 +10,34 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>f15dfed5-7618-42bb-822c-4b875b30bbc1</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\ChirilGorbenco\source\repos\FirstApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>C:\Users\ChirilGorbenco\Source\Repos\moneytracking\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\FirstApp.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\FirstApp.runtimeconfig.json">
       <PackagePath>FirstApp.runtimeconfig.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\FirstApp.dll">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\FirstApp.dll">
       <PackagePath>FirstApp.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>FirstApp.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\FirstApp.deps.json">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\FirstApp.deps.json">
       <PackagePath>FirstApp.deps.json</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ChirilGorbenco\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.18\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
@@ -808,256 +808,259 @@
     <AppxPackagedFile Include="C:\Users\ChirilGorbenco\.nuget\packages\microsoft.maui.core.ref.win\6.0.553\ref\net6.0-windows10.0.19041\Microsoft.Maui.pri">
       <PackagePath>Microsoft.Maui.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\bonuri.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\bonuri.scale-100.png">
       <PackagePath>bonuri.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\bonuri.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\bonuri.scale-125.png">
       <PackagePath>bonuri.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\bonuri.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\bonuri.scale-150.png">
       <PackagePath>bonuri.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\bonuri.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\bonuri.scale-200.png">
       <PackagePath>bonuri.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\bonuri.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\bonuri.scale-400.png">
       <PackagePath>bonuri.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\cash.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\cash.scale-100.png">
       <PackagePath>cash.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\cash.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\cash.scale-125.png">
       <PackagePath>cash.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\cash.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\cash.scale-150.png">
       <PackagePath>cash.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\cash.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\cash.scale-200.png">
       <PackagePath>cash.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\cash.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\cash.scale-400.png">
       <PackagePath>cash.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\grafic.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\grafic.scale-100.png">
       <PackagePath>grafic.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\grafic.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\grafic.scale-125.png">
       <PackagePath>grafic.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\grafic.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\grafic.scale-150.png">
       <PackagePath>grafic.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\grafic.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\grafic.scale-200.png">
       <PackagePath>grafic.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\grafic.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\grafic.scale-400.png">
       <PackagePath>grafic.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\raport.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\images.scale-100.jfif">
+      <PackagePath>images.scale-100.jfif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\raport.scale-100.png">
       <PackagePath>raport.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\raport.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\raport.scale-125.png">
       <PackagePath>raport.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\raport.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\raport.scale-150.png">
       <PackagePath>raport.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\raport.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\raport.scale-200.png">
       <PackagePath>raport.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\raport.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\raport.scale-400.png">
       <PackagePath>raport.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\savingbox.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\savingbox.scale-100.png">
       <PackagePath>savingbox.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\savingbox.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\savingbox.scale-125.png">
       <PackagePath>savingbox.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\savingbox.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\savingbox.scale-150.png">
       <PackagePath>savingbox.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\savingbox.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\savingbox.scale-200.png">
       <PackagePath>savingbox.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\source\repos\FirstApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\savingbox.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\ChirilGorbenco\Source\Repos\moneytracking\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\savingbox.scale-400.png">
       <PackagePath>savingbox.scale-400.png</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

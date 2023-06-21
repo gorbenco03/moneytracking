@@ -24639,11 +24639,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ChirilGorbenco\\source\\repos\\FirstApp\\FirstApp.csproj",
+      "projectUniqueName": "C:\\Users\\ChirilGorbenco\\Source\\Repos\\moneytracking\\FirstApp.csproj",
       "projectName": "FirstApp",
-      "projectPath": "C:\\Users\\ChirilGorbenco\\source\\repos\\FirstApp\\FirstApp.csproj",
+      "projectPath": "C:\\Users\\ChirilGorbenco\\Source\\Repos\\moneytracking\\FirstApp.csproj",
       "packagesPath": "C:\\Users\\ChirilGorbenco\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ChirilGorbenco\\source\\repos\\FirstApp\\obj\\",
+      "outputPath": "C:\\Users\\ChirilGorbenco\\Source\\Repos\\moneytracking\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
