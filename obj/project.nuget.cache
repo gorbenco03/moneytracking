@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sZJ4s6vAe5r8OcvsFWKOqEX/1zmwVaOjTBMyPSWqkWcTQLUVQbkiO+CJeal0Pwbl8s/RJ55LluQ8BY5E9I6f7Q==",
+  "dgSpecHash": "5QO5+8gQiH7s8R0CmU+Fh+dta0D2vwdaAK9pfxA+VzVoRMrRjYIBh5MGSTKd5SwC9FlSUp0n30YpVwsdGhL//g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ChirilGorbenco\\Source\\Repos\\moneytracking\\FirstApp.csproj",
+  "projectFilePath": "C:\\Users\\ChirilGorbenco\\source\\repos\\asdads\\FirstApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ChirilGorbenco\\.nuget\\packages\\googlegson\\2.9.0.1\\googlegson.2.9.0.1.nupkg.sha512",
     "C:\\Users\\ChirilGorbenco\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",

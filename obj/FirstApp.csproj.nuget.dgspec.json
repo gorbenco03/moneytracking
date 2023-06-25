@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ChirilGorbenco\\Source\\Repos\\moneytracking\\FirstApp.csproj": {}
+    "C:\\Users\\ChirilGorbenco\\source\\repos\\asdads\\FirstApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ChirilGorbenco\\Source\\Repos\\moneytracking\\FirstApp.csproj": {
+    "C:\\Users\\ChirilGorbenco\\source\\repos\\asdads\\FirstApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ChirilGorbenco\\Source\\Repos\\moneytracking\\FirstApp.csproj",
+        "projectUniqueName": "C:\\Users\\ChirilGorbenco\\source\\repos\\asdads\\FirstApp.csproj",
         "projectName": "FirstApp",
-        "projectPath": "C:\\Users\\ChirilGorbenco\\Source\\Repos\\moneytracking\\FirstApp.csproj",
+        "projectPath": "C:\\Users\\ChirilGorbenco\\source\\repos\\asdads\\FirstApp.csproj",
         "packagesPath": "C:\\Users\\ChirilGorbenco\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ChirilGorbenco\\Source\\Repos\\moneytracking\\obj\\",
+        "outputPath": "C:\\Users\\ChirilGorbenco\\source\\repos\\asdads\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

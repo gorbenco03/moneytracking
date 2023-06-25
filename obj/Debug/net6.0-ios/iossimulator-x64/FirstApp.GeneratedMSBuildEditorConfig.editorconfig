@@ -8,52 +8,58 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FirstApp
-build_property.ProjectDir = C:\Users\ChirilGorbenco\Source\Repos\moneytracking\
+build_property.ProjectDir = C:\Users\ChirilGorbenco\source\repos\asdads\
 
-[C:/Users/ChirilGorbenco/Source/Repos/moneytracking/App.xaml]
+[C:/Users/ChirilGorbenco/source/repos/asdads/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FirstApp.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/ChirilGorbenco/Source/Repos/moneytracking/AppShell.xaml]
+[C:/Users/ChirilGorbenco/source/repos/asdads/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FirstApp.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/ChirilGorbenco/Source/Repos/moneytracking/ContactPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = FirstApp.ContactPage.xaml
-build_metadata.AdditionalFiles.TargetPath = ContactPage.xaml
-build_metadata.AdditionalFiles.RelativePath = ContactPage.xaml
-
-[C:/Users/ChirilGorbenco/Source/Repos/moneytracking/EmptyPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = FirstApp.EmptyPage.xaml
-build_metadata.AdditionalFiles.TargetPath = EmptyPage.xaml
-build_metadata.AdditionalFiles.RelativePath = EmptyPage.xaml
-
-[C:/Users/ChirilGorbenco/Source/Repos/moneytracking/MainPage.xaml]
+[C:/Users/ChirilGorbenco/source/repos/asdads/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FirstApp.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/ChirilGorbenco/Source/Repos/moneytracking/Resources/Styles/Colors.xaml]
+[C:/Users/ChirilGorbenco/source/repos/asdads/NewPage1.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FirstApp.NewPage1.xaml
+build_metadata.AdditionalFiles.TargetPath = NewPage1.xaml
+build_metadata.AdditionalFiles.RelativePath = NewPage1.xaml
+
+[C:/Users/ChirilGorbenco/source/repos/asdads/NewPage2.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FirstApp.NewPage2.xaml
+build_metadata.AdditionalFiles.TargetPath = NewPage2.xaml
+build_metadata.AdditionalFiles.RelativePath = NewPage2.xaml
+
+[C:/Users/ChirilGorbenco/source/repos/asdads/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FirstApp.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/ChirilGorbenco/Source/Repos/moneytracking/Resources/Styles/Colors1.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = FirstApp.Resources.Styles.Colors1.xaml
-build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors1.xaml
-build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors1.xaml
-
-[C:/Users/ChirilGorbenco/Source/Repos/moneytracking/Resources/Styles/Styles.xaml]
+[C:/Users/ChirilGorbenco/source/repos/asdads/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FirstApp.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/ChirilGorbenco/source/repos/asdads/SettingsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FirstApp.SettingsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = SettingsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = SettingsPage.xaml
+
+[C:/Users/ChirilGorbenco/source/repos/asdads/ToolsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FirstApp.ToolsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = ToolsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = ToolsPage.xaml

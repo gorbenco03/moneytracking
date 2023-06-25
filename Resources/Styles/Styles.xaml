@@ -25,7 +25,7 @@
     
     <Style TargetType="Button">
         <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource Primary}}" />
-        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource White}}" />
+        <Setter Property="BackgroundColor" Value="LightCoral" />
         <Setter Property="FontFamily" Value="OpenSansRegular"/>
         <Setter Property="FontSize" Value="14"/>
         <Setter Property="CornerRadius" Value="8"/>
@@ -37,7 +37,7 @@
                     <VisualState x:Name="Disabled">
                         <VisualState.Setters>
                             <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource Gray950}, Dark={StaticResource Gray200}}" />
-                            <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource Gray200}, Dark={StaticResource Gray600}}" />
+                            <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource Gray950}, Dark={StaticResource Gray200}}" />
                         </VisualState.Setters>
                     </VisualState>
                 </VisualStateGroup>
@@ -121,9 +121,36 @@
     </Style>
 
     <Style TargetType="Frame">
-        <Setter Property="HasShadow" Value="False" />
+        <Setter Property="HasShadow" Value="True" />
         <Setter Property="BorderColor" Value="{AppThemeBinding Light={StaticResource Gray200}, Dark={StaticResource Gray950}}" />
         <Setter Property="CornerRadius" Value="8" />
+        <Setter Property="Background">
+            <Setter.Value>
+                
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                            <GradientStop Color="#8A2387" Offset="0.1" />
+                            <GradientStop Color="#E94057" Offset="0.6" />
+                            <GradientStop Color="#F27121" Offset="1.0" />
+                        </LinearGradientBrush>
+
+            </Setter.Value></Setter>
+    </Style>
+
+    <Style TargetType="Frame" x:Key="GradientFrame">
+        <Setter Property="HasShadow" Value="True" />
+        <Setter Property="BorderColor" Value="{AppThemeBinding Light={StaticResource Gray200}, Dark={StaticResource Gray950}}" />
+        <Setter Property="CornerRadius" Value="8" />
+        <Setter Property="Background">
+            <Setter.Value>
+
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#8A2387" Offset="0.1" />
+                    <GradientStop Color="#E94057" Offset="0.6" />
+                    <GradientStop Color="#F27121" Offset="1.0" />
+                </LinearGradientBrush>
+
+            </Setter.Value>
+        </Setter>
     </Style>
 
     <Style TargetType="ImageButton">

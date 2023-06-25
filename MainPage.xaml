@@ -2,65 +2,90 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FirstApp.MainPage"
-             Title="Home">
+             Title="Home"
+            >
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Frame">
+                <Setter Property="HasShadow" Value="True" />
+                <Setter Property="BorderColor" Value="{AppThemeBinding Light={DynamicResource Gray200}, Dark={DynamicResource Gray950}}" />
+                <Setter Property="CornerRadius" Value="8" />
+                <Setter Property="Background">
+                    <Setter.Value>
 
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                            <GradientStop Color="#e26a75" Offset="0.1" />
+                            <GradientStop Color="#e99480" Offset="0.5" />
+                            <GradientStop Color="#eebc8c" Offset="0.75" />
+                            <GradientStop Color="#f0e297" Offset="1.0" />
+                        </LinearGradientBrush>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+            <Style TargetType="Button">
+                <Setter Property="Background">
+                    <Setter.Value>
+
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                            <GradientStop Color="#e26a75" Offset="0.1" />
+                            <GradientStop Color="#e99480" Offset="0.5" />
+                            <GradientStop Color="#eebc8c" Offset="0.75" />
+                            <GradientStop Color="#f0e297" Offset="1.0" />
+                        </LinearGradientBrush>
+                    </Setter.Value>
+                </Setter>
+                <Setter Property="TextColor" Value="{AppThemeBinding Light={DynamicResource White}, Dark={DynamicResource Primary}}" />
+                <Setter Property="FontFamily" Value="OpenSansRegular"/>
+                <Setter Property="FontSize" Value="14"/>
+                <Setter Property="CornerRadius" Value="8"/>
+                <Setter Property="Padding" Value="14,10"/>
+                <Setter Property="VisualStateManager.VisualStateGroups">
+                    <VisualStateGroupList>
+                        <VisualStateGroup x:Name="CommonStates">
+                            <VisualState x:Name="Normal" />
+                            <VisualState x:Name="Disabled">
+                                <VisualState.Setters>
+                                    <Setter Property="TextColor" Value="{AppThemeBinding Light={DynamicResource Gray950}, Dark={DynamicResource Gray200}}" />
+                                    <Setter Property="BackgroundColor" Value="IndianRed" />
+                                </VisualState.Setters>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateGroupList>
+                </Setter>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
     <ScrollView>
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-            </Grid.RowDefinitions>
-            <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="Auto" />
-                    <ColumnDefinition Width="Auto" />
-                </Grid.ColumnDefinitions>
-
-                <Frame Grid.Row="0" Grid.Column="1" CornerRadius="40" BackgroundColor="#003E42" Opacity="1" HeightRequest="55" WidthRequest="250" Margin="0,50,0,0">
-                    <Grid>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="Auto" />
-                            <ColumnDefinition Width ="Auto"/>
-                        </Grid.ColumnDefinitions>
-                        <Label Grid.Column="1" Text="$1000" TextColor="AntiqueWhite" WidthRequest="55" HeightRequest="17" VerticalOptions="Center"  Margin="10,0,0,0"/>
-                        <Image Grid.Column="0" Source="cash.svg"  HeightRequest="55" WidthRequest="17" VerticalOptions="Center"  Margin="135,0,0,0" />
-                    </Grid>
-                </Frame>
-                <Frame Grid.Row="0" Grid.Column="0" CornerRadius="40" BackgroundColor="#003E42" Opacity="1" HeightRequest="55" WidthRequest="55" Margin="30,50,20,0"></Frame>
-                <Frame Grid.Row="1" Grid.Column="1" CornerRadius="40" BackgroundColor="#003E42" Opacity="1" HeightRequest="55" WidthRequest="250" Margin="0,10,0,0"></Frame>
-
-            </Grid>
-
-            <Frame Grid.Row="0" CornerRadius="40" BackgroundColor="#00BF20" Opacity="0.7" HeightRequest="450" WidthRequest="335" Margin="0,80,0,0"></Frame>
-            <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto" />
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="Auto" />
-                    <ColumnDefinition Width="Auto" />
-                </Grid.ColumnDefinitions>
-
-                <Button Grid.Row="0" Grid.Column="0" CornerRadius="40" Text="Click" HeightRequest="35" WidthRequest="130" BackgroundColor="Indigo" Margin="30,690,0,0"></Button>
-                <Button Grid.Row="0" Grid.Column="1" CornerRadius="40" Text="Click" HeightRequest="35" WidthRequest="130" BackgroundColor="Indigo" Margin="70,690,0,0"></Button>
-            </Grid>
-            <Frame Grid.Row="1" CornerRadius="40" BackgroundColor="#032F20" Opacity="0.7" HeightRequest="250" WidthRequest="335" Margin="0,30,0,20"></Frame>
+        <VerticalStackLayout
+            Spacing="30"
+            Padding="30"
+            >
+            <Frame HeightRequest="70" WidthRequest="320" CornerRadius="45">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Frame Grid.Column="0" HeightRequest="30" WidthRequest="30" Background="black"  CornerRadius="40"></Frame>
+                    <SearchBar Grid.Column="1"></SearchBar>
+                </Grid>
+            </Frame>
+            
+            <Frame HeightRequest="300" WidthRequest="320" CornerRadius="45"></Frame>
+            <Frame HeightRequest="200" WidthRequest="320" CornerRadius="45"></Frame>
             <HorizontalStackLayout>
-                <Frame  CornerRadius="40" BackgroundColor="#003E42" Opacity="1" HeightRequest="55" WidthRequest="55" Margin="60,750,0,0"></Frame>
-                <Frame  CornerRadius="40" BackgroundColor="#003E42" Opacity="1" HeightRequest="55" WidthRequest="55" Margin="15,750,0,0"></Frame>
-                <Frame  CornerRadius="40" BackgroundColor="#003E42" Opacity="1" HeightRequest="55" WidthRequest="55" Margin="15,750,0,0"></Frame>
-                <Frame  CornerRadius="40" BackgroundColor="#003E42" Opacity="1" HeightRequest="55" WidthRequest="55" Margin="15,750,0,0"></Frame>
+                <Button HeightRequest="35" WidthRequest="80" CornerRadius="45" Margin="40,0,0,0"></Button>
+                <Button HeightRequest="35" WidthRequest="80" CornerRadius="45" Margin="70,0,0,0"></Button>
             </HorizontalStackLayout>
+            <Frame HeightRequest="150" WidthRequest="320" CornerRadius="45"></Frame>
+         
+            
+        </VerticalStackLayout>
+         
+        
 
 
 
-
-
-        </Grid>
-       
     </ScrollView>
 </ContentPage>

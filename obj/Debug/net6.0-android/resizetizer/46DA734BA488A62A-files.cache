@@ -1,4 +1,7 @@
-﻿obj\Debug\net6.0-android\resizetizer\r\drawable\images.jfif
+﻿obj\Debug\net6.0-android\resizetizer\r\drawable\home.png
+obj\Debug\net6.0-android\resizetizer\r\drawable\images.jfif
+obj\Debug\net6.0-android\resizetizer\r\drawable\other.png
+obj\Debug\net6.0-android\resizetizer\r\drawable\settings.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\bonuri.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\cash.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\dotnet_bot.png
