@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FirstApp.SettingsPage"
              Title="Tools">
-    <ScrollView BackgroundColor="#A76F6F">
+    <ScrollView BackgroundColor="#632C3A">
 
         <Button x:Name="LogOut" HeightRequest="50" WidthRequest="100" Text="Logout" TextColor="White" Background="Black" FontAttributes="Bold" Clicked ="LogOut_Clicked" ></Button>
         
