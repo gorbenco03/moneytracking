@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FirstApp.NewPage2"
+             Title="NewPage2"
+             Shell.NavBarIsVisible="False">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Entry">
+
+                <Setter Property="TextColor" Value="{AppThemeBinding Light={DynamicResource Black}, Dark={DynamicResource White}}" />
+                <Setter Property="BackgroundColor" Value="Transparent" />
+                <Setter Property="FontFamily" Value="OpenSansRegular"/>
+                <Setter Property="FontSize" Value="14" />
+                <Setter Property="PlaceholderColor" Value="{AppThemeBinding Light={DynamicResource Gray200}, Dark={DynamicResource Gray500}}" />
+                <Setter Property="VisualStateManager.VisualStateGroups">
+                    <VisualStateGroupList>
+                        <VisualStateGroup x:Name="CommonStates">
+                            <VisualState x:Name="Normal" />
+                            <VisualState x:Name="Disabled">
+                                <VisualState.Setters>
+                                    <Setter Property="TextColor" Value="{AppThemeBinding Light={DynamicResource Gray300}, Dark={DynamicResource Gray600}}" />
+                                </VisualState.Setters>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateGroupList>
+                </Setter>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+
+
+    <Grid BackgroundColor="#632C3A">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="250"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <Path Stroke="transparent" StrokeDashArray="0" StrokeThickness="0" Data="m1184.99994,5.5l457.99998,0l0,194.13915c-228.99999,0 -228.99999,73.97058 -457.99998,31.94185l0,-226.081z" Fill="#D64F5A"/>
+
+        <StackLayout>
+            <Frame BackgroundColor="#632C3A" HeightRequest="60" WidthRequest="60" CornerRadius="30" Padding="0" Margin="0,120,0,0" HorizontalOptions="Center">
+                <Image Source="user2.svg" Aspect="AspectFill" Margin="0" HeightRequest="40" WidthRequest="40"/>
+            </Frame>
+        </StackLayout>
+
+        <Grid RowSpacing="5" Grid.Row="1" Margin="20,90,20,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Label Grid.Row="1" Text="Welcome Back!" HorizontalOptions="Center" FontSize="Title" FontAttributes="Bold" TextColor="White" Padding="0" Margin="0,0,0,0"/>
+            <Label Grid.Row="2" Text="Sign in to continue" HorizontalOptions="Center" TextColor="White"  FontSize="Subtitle"/>
+            
+            <StackLayout Grid.Row="3" Orientation="Vertical" HorizontalOptions="CenterAndExpand">
+                <Frame BackgroundColor="Transparent" BorderColor="#D64F5A" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30" Margin="0">
+                    <StackLayout Orientation="Horizontal">
+                        <Frame HeightRequest="40" WidthRequest="40" BackgroundColor="#D64F5A"  Padding="0" HorizontalOptions="Center" Margin="5" CornerRadius="30">
+                            <Image Source="user2.svg" HeightRequest="30" Aspect="AspectFit" Margin="0"/>
+                        </Frame>
+                        <Entry Text="{Binding UserName}" Placeholder="Username" PlaceholderColor="White" TextColor="White" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="StartAndExpand"  ></Entry>
+                    </StackLayout>
+                </Frame>
+
+                <Frame BackgroundColor="Transparent" BorderColor="#D64F5A" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30" Margin="0,5,0,0">
+                    <StackLayout Orientation="Horizontal">
+                        <Frame HeightRequest="40" WidthRequest="40" BackgroundColor="#D64F5A"  Padding="0" HorizontalOptions="Center" Margin="5" CornerRadius="30">
+                            <Image Source="parola.svg" Aspect="AspectFit" HeightRequest="30" Margin="0"/>
+                        </Frame>
+                        <Entry Text="{Binding Password}" Placeholder="Password" PlaceholderColor="White" TextColor="White" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="StartAndExpand"  ></Entry>
+                    </StackLayout>
+                </Frame>
+
+                <StackLayout Orientation="Horizontal" Margin="0,15,0,0" Padding="0">
+                    <CheckBox Color="#D64F5A" Margin="0,20,0,0" IsChecked="False"/>
+                    <Label   Text="Remember Me" FontAttributes="Bold" TextColor="White" FontSize="Small" VerticalTextAlignment="Center"  Margin="0,20,0,0" HorizontalTextAlignment="Center"/>
+                    <Label Text="Forgot password?" FontAttributes="Bold" TextColor="White" FontSize ="Small" HorizontalOptions="EndAndExpand"  Margin="0,20,0,0" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                </StackLayout>
+
+                <Button Text="SIGN IN" HeightRequest="50" WidthRequest="100" CornerRadius="30" BackgroundColor="#D64F5A" FontAttributes="Bold" Margin="0,45,0,0" > </Button>
+
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0,60,0,0">
+                    <Label Text="New User?" TextColor="White"></Label>
+                    <Label Text="  Sign Up" FontAttributes="Bold" TextColor="White"></Label>
+                </StackLayout>
+
+            </StackLayout>
+
+        </Grid>
+
+       
+       
+    
+    
+    </Grid>
+    
+</ContentPage>
