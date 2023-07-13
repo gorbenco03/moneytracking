@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="FirstApp.NewPage2"
+             x:Class="FirstApp.LoginPage"
              Title="NewPage2"
              Shell.NavBarIsVisible="False">
     <ContentPage.Resources>
@@ -63,18 +63,18 @@
                 <Frame BackgroundColor="Transparent" BorderColor="#D64F5A" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30" Margin="0">
                     <StackLayout Orientation="Horizontal">
                         <Frame HeightRequest="40" WidthRequest="40" BackgroundColor="#D64F5A"  Padding="0" HorizontalOptions="Center" Margin="5" CornerRadius="30">
-                            <Image Source="user2.svg" HeightRequest="30" Aspect="AspectFit" Margin="0"/>
+                            <Image Source="user2.svg" HeightRequest="20" Aspect="AspectFit" Margin="0"/>
                         </Frame>
-                        <Entry Text="{Binding UserName}" Placeholder="Username" PlaceholderColor="White" TextColor="White" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="StartAndExpand"  ></Entry>
+                        <Entry x:Name="myUserName" Text="{Binding UserName}" Placeholder="Username" PlaceholderColor="White" TextColor="White" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="StartAndExpand"  ></Entry>
                     </StackLayout>
                 </Frame>
 
                 <Frame BackgroundColor="Transparent" BorderColor="#D64F5A" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30" Margin="0,5,0,0">
                     <StackLayout Orientation="Horizontal">
                         <Frame HeightRequest="40" WidthRequest="40" BackgroundColor="#D64F5A"  Padding="0" HorizontalOptions="Center" Margin="5" CornerRadius="30">
-                            <Image Source="parola.svg" Aspect="AspectFit" HeightRequest="30" Margin="0"/>
+                            <Image Source="parola.svg" Aspect="AspectFit" HeightRequest="20" Margin="0"/>
                         </Frame>
-                        <Entry Text="{Binding Password}" Placeholder="Password" PlaceholderColor="White" TextColor="White" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="StartAndExpand"  ></Entry>
+                        <Entry x:Name="myPassword" Text="{Binding Password}" Placeholder="Password" PlaceholderColor="White" TextColor="White" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="StartAndExpand"  ></Entry>
                     </StackLayout>
                 </Frame>
 
@@ -84,7 +84,7 @@
                     <Label Text="Forgot password?" FontAttributes="Bold" TextColor="White" FontSize ="Small" HorizontalOptions="EndAndExpand"  Margin="0,20,0,0" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
                 </StackLayout>
 
-                <Button Text="SIGN IN" HeightRequest="50" WidthRequest="100" CornerRadius="30" BackgroundColor="#D64F5A" FontAttributes="Bold" Margin="0,45,0,0" > </Button>
+                <Button Text="SIGN IN" HeightRequest="50" WidthRequest="100" CornerRadius="30" BackgroundColor="#D64F5A" FontAttributes="Bold" Margin="0,45,0,0" Clicked="Button_Clicked" > </Button>
 
                 <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0,60,0,0">
                     <Label Text="New User?" TextColor="White"></Label>

@@ -7,9 +7,8 @@
             BarBackgroundColor="RosyBrown"
             UnselectedTabColor="Black"
             SelectedTabColor ="White">
-
-    <local:ToolsPage Title="Tools" IconImageSource="other.png"></local:ToolsPage>
     <local:MainPage Title="Home" IconImageSource="home.png"></local:MainPage>
+    <local:ToolsPage Title="Tools" IconImageSource="other.png"></local:ToolsPage>
     <local:SettingsPage Title="Settings" IconImageSource="settings.png" ></local:SettingsPage>
     
     
